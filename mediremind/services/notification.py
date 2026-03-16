@@ -17,7 +17,7 @@ class NotificationService:
         self.app.send_notification(f"reminder-{medication.id}", notification)
 
     def send_missed_alert(self, medication):
-        notification = Gio.Notification.new(_("Missad dos!"))
+        notification = Gio.Notification.new(_("Missed dose!"))
         notification.set_body(
             _("{name} has not been confirmed").format(name=medication.name)
         )

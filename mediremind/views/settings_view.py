@@ -36,8 +36,8 @@ class SettingsView(Gtk.Box):
         # Contact section
         contact_frame = self._create_section(_("Contact with relatives"))
         self.contact_name = self._add_entry(contact_frame, _("Name"), "contact_name")
-        self.contact_email = self._add_entry(contact_frame, _("E-post"), "contact_email")
-        self.contact_phone = self._add_entry(contact_frame, _("Telefon"), "contact_phone")
+        self.contact_email = self._add_entry(contact_frame, _("E-mail address"), "contact_email")
+        self.contact_phone = self._add_entry(contact_frame, _("Phone number"), "contact_phone")
         content.append(contact_frame)
 
         # Email settings
@@ -55,13 +55,13 @@ class SettingsView(Gtk.Box):
         content.append(notif_frame)
 
         # Medication management
-        med_frame = self._create_section(_("Mediciner"))
+        med_frame = self._create_section(_("Medicines"))
         self.med_list = Gtk.ListBox()
         self.med_list.set_selection_mode(Gtk.SelectionMode.NONE)
         self.med_list.add_css_class("boxed-list")
         med_frame.append(self.med_list)
 
-        add_btn = Gtk.Button(label=_("Add medicin"))
+        add_btn = Gtk.Button(label=_("Add medicine"))
         add_btn.add_css_class("suggested-action")
         add_btn.set_margin_top(8)
         add_btn.connect("clicked", self._on_add_medication)
@@ -207,7 +207,7 @@ class AddMedicationDialog(Gtk.Dialog):
 
     def __init__(self, parent):
         super().__init__(
-            title=_("Add medicin"),
+            title=_("Add medicine"),
             transient_for=parent,
             modal=True,
         )
@@ -222,7 +222,7 @@ class AddMedicationDialog(Gtk.Dialog):
         content.set_margin_end(16)
 
         self.name_entry = Gtk.Entry()
-        self.name_entry.set_placeholder_text(_("Medicinnamn"))
+        self.name_entry.set_placeholder_text(_("Medicine name"))
         content.append(self.name_entry)
 
         self.form_combo = Gtk.ComboBoxText()
@@ -238,7 +238,7 @@ class AddMedicationDialog(Gtk.Dialog):
         content.append(self.form_combo)
 
         self.dosage_entry = Gtk.Entry()
-        self.dosage_entry.set_placeholder_text(_("Dosering, t.ex. 2 tabletter"))
+        self.dosage_entry.set_placeholder_text(_("Dosage, e.g. 2 tablets"))
         content.append(self.dosage_entry)
 
         self.times_entry = Gtk.Entry()

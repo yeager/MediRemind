@@ -48,7 +48,7 @@ class AlertSender:
         msg = MIMEMultipart()
         msg["From"] = smtp_user
         msg["To"] = to_email
-        msg["Subject"] = _("MediRemind: Missad dos - {name}").format(name=med_name)
+        msg["Subject"] = _("MediRemind: Missed dose - {name}").format(name=med_name)
         msg.attach(MIMEText(message, "plain", "utf-8"))
 
         with smtplib.SMTP(smtp_server, smtp_port) as server:

@@ -83,7 +83,7 @@ class ReminderView(Gtk.Window):
         icon.set_icon_size(Gtk.IconSize.LARGE)
         confirm_box.append(icon)
 
-        confirm_label = Gtk.Label(label=_("Jag har tagit min medicin"))
+        confirm_label = Gtk.Label(label=_("I have taken my medicine"))
         confirm_label.add_css_class("confirm-label")
         confirm_box.append(confirm_label)
 

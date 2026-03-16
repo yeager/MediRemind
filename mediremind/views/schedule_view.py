@@ -25,7 +25,7 @@ class ScheduleView(Gtk.Box):
         header_box.set_margin_start(16)
         header_box.set_margin_end(16)
 
-        title = Gtk.Label(label=_("Dagens mediciner"))
+        title = Gtk.Label(label=_("Today's medicines"))
         title.add_css_class("title-1")
         title.set_halign(Gtk.Align.START)
         header_box.append(title)

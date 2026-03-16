@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mediremind\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 19:25+0100\n"
+"POT-Creation-Date: 2026-03-16 19:59+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -71,11 +71,11 @@ msgid "Name"
 msgstr ""
 
 #: mediremind/views/settings_view.py:39
-msgid "E-post"
+msgid "E-mail address"
 msgstr ""
 
 #: mediremind/views/settings_view.py:40
-msgid "Telefon"
+msgid "Phone number"
 msgstr ""
 
 #: mediremind/views/settings_view.py:44
@@ -103,11 +103,11 @@ msgid "Time before warning (minutes)"
 msgstr ""
 
 #: mediremind/views/settings_view.py:58
-msgid "Mediciner"
+msgid "Medicines"
 msgstr ""
 
 #: mediremind/views/settings_view.py:64 mediremind/views/settings_view.py:210
-msgid "Add medicin"
+msgid "Add medicine"
 msgstr ""
 
 #: mediremind/views/settings_view.py:73
@@ -123,7 +123,7 @@ msgid "Add"
 msgstr ""
 
 #: mediremind/views/settings_view.py:225
-msgid "Medicinnamn"
+msgid "Medicine name"
 msgstr ""
 
 #: mediremind/views/settings_view.py:230
@@ -147,7 +147,7 @@ msgid "Salva"
 msgstr ""
 
 #: mediremind/views/settings_view.py:241
-msgid "Dosering, t.ex. 2 tabletter"
+msgid "Dosage, e.g. 2 tablets"
 msgstr ""
 
 #: mediremind/views/settings_view.py:245
@@ -155,7 +155,7 @@ msgid "Tider, t.ex. 08:00, 20:00"
 msgstr ""
 
 #: mediremind/views/schedule_view.py:28
-msgid "Dagens mediciner"
+msgid "Today's medicines"
 msgstr ""
 
 #: mediremind/views/schedule_view.py:70
@@ -171,7 +171,7 @@ msgid "Time for medicine!"
 msgstr ""
 
 #: mediremind/views/reminder_view.py:86
-msgid "Jag har tagit min medicin"
+msgid "I have taken my medicine"
 msgstr ""
 
 #: mediremind/views/reminder_view.py:95
@@ -184,7 +184,7 @@ msgid "It is time to take: {name}"
 msgstr ""
 
 #: mediremind/services/notification.py:20
-msgid "Missad dos!"
+msgid "Missed dose!"
 msgstr ""
 
 #: mediremind/services/notification.py:22
@@ -201,7 +201,7 @@ msgstr ""
 
 #: mediremind/services/alert_sender.py:51
 #, python-brace-format
-msgid "MediRemind: Missad dos - {name}"
+msgid "MediRemind: Missed dose - {name}"
 msgstr ""
 
 #: mediremind/widgets/confirm_button.py:26
