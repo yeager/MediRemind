@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mediremind\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 18:54+0100\n"
+"POT-Creation-Date: 2026-03-16 19:06+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -27,15 +27,6 @@ msgstr ""
 
 #: mediremind/window.py:61 mediremind/views/settings_view.py:31
 msgid "Settings"
-msgstr ""
-
-#: mediremind/reminder.py:53
-msgid "Medication Reminder"
-msgstr ""
-
-#: mediremind/reminder.py:54
-#, python-format
-msgid "Time to take %s"
 msgstr ""
 
 #: mediremind/views/history_view.py:57
@@ -195,8 +186,8 @@ msgstr ""
 #: mediremind/services/alert_sender.py:21
 #, python-brace-format
 msgid ""
-"Hej {contact}! {med_name} (planerad {time}) har inte bekräftats. Vänligen "
-"kontrollera att medicinen har tagits."
+"Hello {contact}! {med_name} (scheduled {time}) has not been confirmed. "
+"Vänligen kontrollera att medicinen har tagits."
 msgstr ""
 
 #: mediremind/services/alert_sender.py:51
@@ -211,4 +202,13 @@ msgstr ""
 
 #: mediremind/widgets/confirm_button.py:38
 msgid "Confirmed!"
+msgstr ""
+
+#: mediremind/reminder.py:53
+msgid "Medication Reminder"
+msgstr ""
+
+#: mediremind/reminder.py:54
+#, python-format
+msgid "Time to take %s"
 msgstr ""

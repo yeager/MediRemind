@@ -18,7 +18,7 @@ class AlertSender:
         contact_name = self.settings.get("contact_name", "anh\u00f6rig")
 
         message = _(
-            "Hej {contact}! {med_name} (planerad {time}) har inte bekr\u00e4ftats. "
+            "Hello {contact}! {med_name} (scheduled {time}) has not been confirmed. "
             "V\u00e4nligen kontrollera att medicinen har tagits."
         ).format(contact=contact_name, med_name=medication.name, time=scheduled_time)
 
