@@ -1,14 +1,14 @@
 # SOME DESCRIPTIVE TITLE.
 # Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the MediRemind package.
+# This file is distributed under the same license as the mediremind package.
 # FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
 #
 #, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: MediRemind 1.0\n"
+"Project-Id-Version: mediremind 0.1.0\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 11:51+0100\n"
+"POT-Creation-Date: 2026-03-16 12:47+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -39,11 +39,11 @@ msgid "Time to take %s"
 msgstr ""
 
 #: mediremind/views/history_view.py:57
-msgid "Ingen historik ännu"
+msgid "No history yet"
 msgstr ""
 
 #: mediremind/views/history_view.py:87
-msgid "Okänd medicin"
+msgid "Unknown medicine"
 msgstr ""
 
 #: mediremind/views/history_view.py:106
@@ -55,7 +55,7 @@ msgid "Missad"
 msgstr ""
 
 #: mediremind/views/history_view.py:108
-msgid "Väntar"
+msgid "Waiting"
 msgstr ""
 
 #: mediremind/views/history_view.py:109
@@ -63,7 +63,7 @@ msgid "Snoozad"
 msgstr ""
 
 #: mediremind/views/settings_view.py:37
-msgid "Anhörigkontakt"
+msgid "Contact with relatives"
 msgstr ""
 
 #: mediremind/views/settings_view.py:38
@@ -79,7 +79,7 @@ msgid "Telefon"
 msgstr ""
 
 #: mediremind/views/settings_view.py:44
-msgid "E-postinställningar (SMTP)"
+msgid "Email settings (SMTP)"
 msgstr ""
 
 #: mediremind/views/settings_view.py:45
@@ -87,11 +87,11 @@ msgid "SMTP-server"
 msgstr ""
 
 #: mediremind/views/settings_view.py:46
-msgid "Användare"
+msgid "Users"
 msgstr ""
 
 #: mediremind/views/settings_view.py:47
-msgid "Lösenord"
+msgid "password"
 msgstr ""
 
 #: mediremind/views/settings_view.py:51
@@ -111,7 +111,7 @@ msgid "Add medicin"
 msgstr ""
 
 #: mediremind/views/settings_view.py:73
-msgid "Save inställningar"
+msgid "Save settings"
 msgstr ""
 
 #: mediremind/views/settings_view.py:214
@@ -163,11 +163,11 @@ msgid "Inga mediciner schemalagda idag"
 msgstr ""
 
 #: mediremind/views/reminder_view.py:24
-msgid "Medicinpåminnelse"
+msgid "Medicine reminder"
 msgstr ""
 
-#: mediremind/views/reminder_view.py:52 mediremind/services/notification.py:11
-msgid "Dags för medicin!"
+#: mediremind/views/reminder_view.py:52
+msgid "Time for medicine!"
 msgstr ""
 
 #: mediremind/views/reminder_view.py:86
@@ -175,7 +175,11 @@ msgid "Jag har tagit min medicin"
 msgstr ""
 
 #: mediremind/views/reminder_view.py:95
-msgid "Påminn mig om 5 minuter"
+msgid "Remind me in 5 minutes"
+msgstr ""
+
+#: mediremind/services/notification.py:11
+msgid "Dags för medicin!"
 msgstr ""
 
 #: mediremind/services/notification.py:13

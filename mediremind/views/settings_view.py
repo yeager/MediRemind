@@ -34,17 +34,17 @@ class SettingsView(Gtk.Box):
         content.append(title)
 
         # Contact section
-        contact_frame = self._create_section(_("Anhörigkontakt"))
+        contact_frame = self._create_section(_("Contact with relatives"))
         self.contact_name = self._add_entry(contact_frame, _("Name"), "contact_name")
         self.contact_email = self._add_entry(contact_frame, _("E-post"), "contact_email")
         self.contact_phone = self._add_entry(contact_frame, _("Telefon"), "contact_phone")
         content.append(contact_frame)
 
         # Email settings
-        email_frame = self._create_section(_("E-postinställningar (SMTP)"))
+        email_frame = self._create_section(_("Email settings (SMTP)"))
         self.smtp_server = self._add_entry(email_frame, _("SMTP-server"), "smtp_server")
-        self.smtp_user = self._add_entry(email_frame, _("Användare"), "smtp_user")
-        self.smtp_password = self._add_entry(email_frame, _("Lösenord"), "smtp_password", password=True)
+        self.smtp_user = self._add_entry(email_frame, _("Users"), "smtp_user")
+        self.smtp_password = self._add_entry(email_frame, _("password"), "smtp_password", password=True)
         content.append(email_frame)
 
         # Notification settings
@@ -70,7 +70,7 @@ class SettingsView(Gtk.Box):
         content.append(med_frame)
 
         # Save button
-        save_btn = Gtk.Button(label=_("Save inställningar"))
+        save_btn = Gtk.Button(label=_("Save settings"))
         save_btn.add_css_class("suggested-action")
         save_btn.set_size_request(-1, 60)
         save_btn.connect("clicked", self._on_save)

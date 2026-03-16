@@ -21,7 +21,7 @@ class ReminderView(Gtk.Window):
         super().__init__(
             application=app,
             modal=True,
-            title=_("Medicinpåminnelse"),
+            title=_("Medicine reminder"),
         )
         self.medication = medication
         self.dose = dose
@@ -49,7 +49,7 @@ class ReminderView(Gtk.Window):
         main_box.append(alert_label)
 
         # Title
-        title = Gtk.Label(label=_("Dags för medicin!"))
+        title = Gtk.Label(label=_("Time for medicine!"))
         title.add_css_class("reminder-title")
         main_box.append(title)
 
@@ -92,7 +92,7 @@ class ReminderView(Gtk.Window):
         main_box.append(confirm_btn)
 
         # Snooze button
-        snooze_btn = Gtk.Button(label=_("Påminn mig om 5 minuter"))
+        snooze_btn = Gtk.Button(label=_("Remind me in 5 minutes"))
         snooze_btn.add_css_class("snooze-button")
         snooze_btn.set_size_request(300, 60)
         snooze_btn.connect("clicked", self._on_snooze)

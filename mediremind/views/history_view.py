@@ -54,7 +54,7 @@ class HistoryView(Gtk.Box):
         recent.sort(key=lambda h: h.scheduled_time, reverse=True)
 
         if not recent:
-            empty = Gtk.Label(label=_("Ingen historik ännu"))
+            empty = Gtk.Label(label=_("No history yet"))
             empty.add_css_class("dim-label")
             empty.set_margin_top(48)
             self.list_box.append(empty)
@@ -84,7 +84,7 @@ class HistoryView(Gtk.Box):
         info_box.set_hexpand(True)
 
         med = self.persistence.get_medication_by_id(entry.medication_id)
-        name = med.name if med else _("Okänd medicin")
+        name = med.name if med else _("Unknown medicine")
         name_label = Gtk.Label(label=name)
         name_label.set_halign(Gtk.Align.START)
         name_label.add_css_class("heading")
@@ -105,7 +105,7 @@ class HistoryView(Gtk.Box):
         status_map = {
             "taken": _("Tagen"),
             "missed": _("Missad"),
-            "pending": _("Väntar"),
+            "pending": _("Waiting"),
             "snoozed": _("Snoozad"),
         }
         status_label = Gtk.Label(label=status_map.get(entry.status, entry.status))
