@@ -1,0 +1,11 @@
+[Desktop Entry]
+Name=MediRemind
+Name[sv]=MediRemind - Medicinpåminnare
+Comment=Simple medication reminder
+Comment[sv]=Enkel medicinpåminnare
+Exec=mediremind
+Icon=preferences-desktop-notification
+Terminal=false
+Type=Application
+Categories=Utility;GTK;
+StartupNotify=true

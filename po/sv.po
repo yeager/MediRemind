@@ -1,0 +1,52 @@
+# Swedish translation for MediRemind.
+# Copyright (C) 2026 MediRemind
+# This file is distributed under the same license as the mediremind package.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: mediremind 0.1.0\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2026-03-16 00:00+0000\n"
+"PO-Revision-Date: 2026-03-16 00:00+0000\n"
+"Last-Translator: \n"
+"Language-Team: Swedish\n"
+"Language: sv\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+
+#: mediremind/window.py
+msgid "Add Medication"
+msgstr "Lägg till medicin"
+
+#: mediremind/window.py
+msgid "No Medications"
+msgstr "Inga mediciner"
+
+#: mediremind/window.py
+msgid "Click + to add your first medication"
+msgstr "Klicka + för att lägga till din första medicin"
+
+#: mediremind/window.py
+msgid "Enter medication name and time (HH:MM)"
+msgstr "Ange medicinnamn och tid (TT:MM)"
+
+#: mediremind/window.py
+msgid "Medication name"
+msgstr "Medicinnamn"
+
+#: mediremind/window.py
+msgid "Cancel"
+msgstr "Avbryt"
+
+#: mediremind/window.py
+msgid "Add"
+msgstr "Lägg till"
+
+#: mediremind/reminder.py
+msgid "Medication Reminder"
+msgstr "Medicinpåminnelse"
+
+#: mediremind/reminder.py
+msgid "Time to take %s"
+msgstr "Dags att ta %s"
