@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mediremind\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 12:47+0100\n"
+"POT-Creation-Date: 2026-03-16 12:50+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -17,47 +17,16 @@ msgstr ""
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 
-#: mediremind/reminder.py:53
-msgid "Medication Reminder"
+#: mediremind/window.py:40
+msgid "Schema"
 msgstr ""
 
-#: mediremind/reminder.py:54
-#, python-format
-msgid "Time to take %s"
-msgstr ""
-
-#: mediremind/services/alert_sender.py:21
-#, python-brace-format
-msgid ""
-"Hej {contact}! {med_name} (planerad {time}) har inte bekräftats. Vänligen "
-"kontrollera att medicinen har tagits."
-msgstr ""
-
-#: mediremind/services/alert_sender.py:51
-#, python-brace-format
-msgid "MediRemind: Missad dos - {name}"
-msgstr ""
-
-#: mediremind/services/notification.py:11
-msgid "Dags för medicin!"
-msgstr ""
-
-#: mediremind/services/notification.py:13
-#, python-brace-format
-msgid "Det är dags att ta: {name}"
-msgstr ""
-
-#: mediremind/services/notification.py:20
-msgid "Missad dos!"
-msgstr ""
-
-#: mediremind/services/notification.py:22
-#, python-brace-format
-msgid "{name} har inte bekräftats"
-msgstr ""
-
-#: mediremind/views/history_view.py:17 mediremind/window.py:49
+#: mediremind/window.py:49 mediremind/views/history_view.py:17
 msgid "Historik"
+msgstr ""
+
+#: mediremind/window.py:61 mediremind/views/settings_view.py:31
+msgid "Settings"
 msgstr ""
 
 #: mediremind/views/history_view.py:57
@@ -82,34 +51,6 @@ msgstr ""
 
 #: mediremind/views/history_view.py:109
 msgid "Snoozad"
-msgstr ""
-
-#: mediremind/views/reminder_view.py:24
-msgid "Medicine reminder"
-msgstr ""
-
-#: mediremind/views/reminder_view.py:52
-msgid "Time for medicine!"
-msgstr ""
-
-#: mediremind/views/reminder_view.py:86
-msgid "Jag har tagit min medicin"
-msgstr ""
-
-#: mediremind/views/reminder_view.py:95
-msgid "Remind me in 5 minutes"
-msgstr ""
-
-#: mediremind/views/schedule_view.py:28
-msgid "Dagens mediciner"
-msgstr ""
-
-#: mediremind/views/schedule_view.py:70
-msgid "Inga mediciner schemalagda idag"
-msgstr ""
-
-#: mediremind/views/settings_view.py:31 mediremind/window.py:61
-msgid "Settings"
 msgstr ""
 
 #: mediremind/views/settings_view.py:37
@@ -204,6 +145,60 @@ msgstr ""
 msgid "Tider, t.ex. 08:00, 20:00"
 msgstr ""
 
+#: mediremind/views/schedule_view.py:28
+msgid "Dagens mediciner"
+msgstr ""
+
+#: mediremind/views/schedule_view.py:70
+msgid "Inga mediciner schemalagda idag"
+msgstr ""
+
+#: mediremind/views/reminder_view.py:24
+msgid "Medicine reminder"
+msgstr ""
+
+#: mediremind/views/reminder_view.py:52
+msgid "Time for medicine!"
+msgstr ""
+
+#: mediremind/views/reminder_view.py:86
+msgid "Jag har tagit min medicin"
+msgstr ""
+
+#: mediremind/views/reminder_view.py:95
+msgid "Remind me in 5 minutes"
+msgstr ""
+
+#: mediremind/services/notification.py:11
+msgid "Dags för medicin!"
+msgstr ""
+
+#: mediremind/services/notification.py:13
+#, python-brace-format
+msgid "Det är dags att ta: {name}"
+msgstr ""
+
+#: mediremind/services/notification.py:20
+msgid "Missad dos!"
+msgstr ""
+
+#: mediremind/services/notification.py:22
+#, python-brace-format
+msgid "{name} har inte bekräftats"
+msgstr ""
+
+#: mediremind/services/alert_sender.py:21
+#, python-brace-format
+msgid ""
+"Hej {contact}! {med_name} (planerad {time}) har inte bekräftats. Vänligen "
+"kontrollera att medicinen har tagits."
+msgstr ""
+
+#: mediremind/services/alert_sender.py:51
+#, python-brace-format
+msgid "MediRemind: Missad dos - {name}"
+msgstr ""
+
 #: mediremind/widgets/confirm_button.py:26
 #: mediremind/widgets/confirm_button.py:47
 msgid "Bekräfta"
@@ -213,6 +208,11 @@ msgstr ""
 msgid "Bekräftad!"
 msgstr ""
 
-#: mediremind/window.py:40
-msgid "Schema"
+#: mediremind/reminder.py:53
+msgid "Medication Reminder"
+msgstr ""
+
+#: mediremind/reminder.py:54
+#, python-format
+msgid "Time to take %s"
 msgstr ""
