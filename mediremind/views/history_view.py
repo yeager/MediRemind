@@ -14,7 +14,7 @@ class HistoryView(Gtk.Box):
         super().__init__(orientation=Gtk.Orientation.VERTICAL)
         self.persistence = persistence
 
-        header = Gtk.Label(label=_("Historik"))
+        header = Gtk.Label(label=_("History"))
         header.add_css_class("title-1")
         header.set_halign(Gtk.Align.START)
         header.set_margin_top(16)

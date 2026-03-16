@@ -67,7 +67,7 @@ class ScheduleView(Gtk.Box):
         schedule = self.scheduler.get_todays_schedule()
 
         if not schedule:
-            empty = Gtk.Label(label=_("Inga mediciner schemalagda idag"))
+            empty = Gtk.Label(label=_("No medications scheduled today"))
             empty.add_css_class("dim-label")
             empty.add_css_class("title-3")
             empty.set_margin_top(48)

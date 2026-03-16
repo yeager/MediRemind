@@ -50,7 +50,7 @@ class SettingsView(Gtk.Box):
         # Notification settings
         notif_frame = self._create_section(_("Notifieringar"))
         self.missed_timeout = self._add_entry(
-            notif_frame, _("Time innan varning (minuter)"), "missed_timeout_minutes"
+            notif_frame, _("Time before warning (minutes)"), "missed_timeout_minutes"
         )
         content.append(notif_frame)
 

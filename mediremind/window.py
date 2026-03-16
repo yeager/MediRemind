@@ -37,7 +37,7 @@ class MediRemindWindow(Adw.ApplicationWindow):
         self.stack.add_titled_with_icon(
             self.schedule_view,
             "schedule",
-            _("Schema"),
+            _("Schedule"),
             "view-list-symbolic",
         )
 
@@ -46,7 +46,7 @@ class MediRemindWindow(Adw.ApplicationWindow):
         self.stack.add_titled_with_icon(
             self.history_view,
             "history",
-            _("Historik"),
+            _("History"),
             "document-open-recent-symbolic",
         )
 
