@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: mediremind\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 19:59+0100\n"
+"POT-Creation-Date: 2026-03-16 20:24+0100\n"
 "PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: LANGUAGE <LL@li.org>\n"
@@ -47,11 +47,11 @@ msgid "Unknown medicine"
 msgstr ""
 
 #: mediremind/views/history_view.py:106
-msgid "Tagen"
+msgid "Taken"
 msgstr ""
 
 #: mediremind/views/history_view.py:107
-msgid "Missad"
+msgid "Missed"
 msgstr ""
 
 #: mediremind/views/history_view.py:108
@@ -59,11 +59,11 @@ msgid "Waiting"
 msgstr ""
 
 #: mediremind/views/history_view.py:109
-msgid "Snoozad"
+msgid "Snoozed"
 msgstr ""
 
 #: mediremind/views/settings_view.py:37
-msgid "Contact with relatives"
+msgid "Emergency contact"
 msgstr ""
 
 #: mediremind/views/settings_view.py:38
@@ -87,15 +87,15 @@ msgid "SMTP-server"
 msgstr ""
 
 #: mediremind/views/settings_view.py:46
-msgid "Users"
+msgid "Username"
 msgstr ""
 
 #: mediremind/views/settings_view.py:47
-msgid "password"
+msgid "Password"
 msgstr ""
 
 #: mediremind/views/settings_view.py:51
-msgid "Notifieringar"
+msgid "Notifications"
 msgstr ""
 
 #: mediremind/views/settings_view.py:53
@@ -127,23 +127,23 @@ msgid "Medicine name"
 msgstr ""
 
 #: mediremind/views/settings_view.py:230
-msgid "Tablett"
+msgid "Tablet"
 msgstr ""
 
 #: mediremind/views/settings_view.py:231
-msgid "Injektion"
+msgid "Injection"
 msgstr ""
 
 #: mediremind/views/settings_view.py:232
-msgid "Droppar"
+msgid "Drops"
 msgstr ""
 
 #: mediremind/views/settings_view.py:233
-msgid "Inhalator"
+msgid "Inhaler"
 msgstr ""
 
 #: mediremind/views/settings_view.py:234
-msgid "Salva"
+msgid "Ointment"
 msgstr ""
 
 #: mediremind/views/settings_view.py:241
@@ -151,7 +151,7 @@ msgid "Dosage, e.g. 2 tablets"
 msgstr ""
 
 #: mediremind/views/settings_view.py:245
-msgid "Tider, t.ex. 08:00, 20:00"
+msgid "Times, e.g. 08:00, 20:00"
 msgstr ""
 
 #: mediremind/views/schedule_view.py:28

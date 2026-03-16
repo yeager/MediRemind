@@ -103,10 +103,10 @@ class HistoryView(Gtk.Box):
         box.append(info_box)
 
         status_map = {
-            "taken": _("Tagen"),
-            "missed": _("Missad"),
+            "taken": _("Taken"),
+            "missed": _("Missed"),
             "pending": _("Waiting"),
-            "snoozed": _("Snoozad"),
+            "snoozed": _("Snoozed"),
         }
         status_label = Gtk.Label(label=status_map.get(entry.status, entry.status))
         status_label.add_css_class(f"status-{entry.status}")

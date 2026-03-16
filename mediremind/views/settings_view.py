@@ -34,7 +34,7 @@ class SettingsView(Gtk.Box):
         content.append(title)
 
         # Contact section
-        contact_frame = self._create_section(_("Contact with relatives"))
+        contact_frame = self._create_section(_("Emergency contact"))
         self.contact_name = self._add_entry(contact_frame, _("Name"), "contact_name")
         self.contact_email = self._add_entry(contact_frame, _("E-mail address"), "contact_email")
         self.contact_phone = self._add_entry(contact_frame, _("Phone number"), "contact_phone")
@@ -43,12 +43,12 @@ class SettingsView(Gtk.Box):
         # Email settings
         email_frame = self._create_section(_("Email settings (SMTP)"))
         self.smtp_server = self._add_entry(email_frame, _("SMTP-server"), "smtp_server")
-        self.smtp_user = self._add_entry(email_frame, _("Users"), "smtp_user")
-        self.smtp_password = self._add_entry(email_frame, _("password"), "smtp_password", password=True)
+        self.smtp_user = self._add_entry(email_frame, _("Username"), "smtp_user")
+        self.smtp_password = self._add_entry(email_frame, _("Password"), "smtp_password", password=True)
         content.append(email_frame)
 
         # Notification settings
-        notif_frame = self._create_section(_("Notifieringar"))
+        notif_frame = self._create_section(_("Notifications"))
         self.missed_timeout = self._add_entry(
             notif_frame, _("Time before warning (minutes)"), "missed_timeout_minutes"
         )
@@ -227,11 +227,11 @@ class AddMedicationDialog(Gtk.Dialog):
 
         self.form_combo = Gtk.ComboBoxText()
         for form_id, label in [
-            ("pill", _("Tablett")),
-            ("injection", _("Injektion")),
-            ("drops", _("Droppar")),
-            ("inhaler", _("Inhalator")),
-            ("ointment", _("Salva")),
+            ("pill", _("Tablet")),
+            ("injection", _("Injection")),
+            ("drops", _("Drops")),
+            ("inhaler", _("Inhaler")),
+            ("ointment", _("Ointment")),
         ]:
             self.form_combo.append(form_id, label)
         self.form_combo.set_active_id("pill")
@@ -242,5 +242,5 @@ class AddMedicationDialog(Gtk.Dialog):
         content.append(self.dosage_entry)
 
         self.times_entry = Gtk.Entry()
-        self.times_entry.set_placeholder_text(_("Tider, t.ex. 08:00, 20:00"))
+        self.times_entry.set_placeholder_text(_("Times, e.g. 08:00, 20:00"))
         content.append(self.times_entry)
