@@ -133,3 +133,6 @@ msgstr "Bekräfta"
 
 msgid "Confirmed!"
 msgstr "Bekräftad!"
+
+msgid "Hello {contact}! {with_name} (scheduled {time}) has not been confirmed"
+msgstr "Hej {contact}! {med_name} (planerad {time}) har inte bekräftats"
