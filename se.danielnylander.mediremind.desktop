@@ -1,0 +1,14 @@
+[Desktop Entry]
+Name=MediRemind
+Name[sv]=Medicinpåminnare
+Comment=Medicine reminders
+Comment[sv]=Medicinpåminnelser
+GenericName=Accessibility Application
+GenericName[sv]=Tillgänglighetsapp
+Exec=python3 -m mediremind
+Icon=mediremind
+Terminal=false
+Type=Application
+Categories=Utility;Accessibility;
+Keywords=accessibility;a11y;
+Keywords[sv]=tillgänglighet;funktionsnedsättning;
