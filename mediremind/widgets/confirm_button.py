@@ -23,7 +23,7 @@ class ConfirmButton(Gtk.Button):
         icon.set_icon_size(Gtk.IconSize.LARGE)
         box.append(icon)
 
-        self._label = Gtk.Label(label=_("Bekr\u00e4fta"))
+        self._label = Gtk.Label(label=_("Confirm"))
         self._label.add_css_class("confirm-label")
         box.append(self._label)
 
@@ -35,7 +35,7 @@ class ConfirmButton(Gtk.Button):
     def _on_clicked(self, button):
         if not self._confirmed:
             self._confirmed = True
-            self._label.set_text(_("Bekr\u00e4ftad!"))
+            self._label.set_text(_("Confirmed!"))
             self._icon.set_from_icon_name("emblem-ok-symbolic")
             self.remove_css_class("suggested-action")
             self.add_css_class("success")
@@ -44,7 +44,7 @@ class ConfirmButton(Gtk.Button):
 
     def reset(self):
         self._confirmed = False
-        self._label.set_text(_("Bekr\u00e4fta"))
+        self._label.set_text(_("Confirm"))
         self._icon.set_from_icon_name("object-select-symbolic")
         self.remove_css_class("success")
         self.add_css_class("suggested-action")
