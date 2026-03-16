@@ -58,7 +58,7 @@ class MediRemindWindow(Adw.ApplicationWindow):
         self.stack.add_titled_with_icon(
             self.settings_view,
             "settings",
-            _("Inställningar"),
+            _("Settings"),
             "emblem-system-symbolic",
         )
 

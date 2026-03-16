@@ -28,14 +28,14 @@ class SettingsView(Gtk.Box):
         content.set_margin_end(16)
 
         # Title
-        title = Gtk.Label(label=_("Inställningar"))
+        title = Gtk.Label(label=_("Settings"))
         title.add_css_class("title-1")
         title.set_halign(Gtk.Align.START)
         content.append(title)
 
         # Contact section
         contact_frame = self._create_section(_("Anhörigkontakt"))
-        self.contact_name = self._add_entry(contact_frame, _("Namn"), "contact_name")
+        self.contact_name = self._add_entry(contact_frame, _("Name"), "contact_name")
         self.contact_email = self._add_entry(contact_frame, _("E-post"), "contact_email")
         self.contact_phone = self._add_entry(contact_frame, _("Telefon"), "contact_phone")
         content.append(contact_frame)
@@ -50,7 +50,7 @@ class SettingsView(Gtk.Box):
         # Notification settings
         notif_frame = self._create_section(_("Notifieringar"))
         self.missed_timeout = self._add_entry(
-            notif_frame, _("Tid innan varning (minuter)"), "missed_timeout_minutes"
+            notif_frame, _("Time innan varning (minuter)"), "missed_timeout_minutes"
         )
         content.append(notif_frame)
 
@@ -61,7 +61,7 @@ class SettingsView(Gtk.Box):
         self.med_list.add_css_class("boxed-list")
         med_frame.append(self.med_list)
 
-        add_btn = Gtk.Button(label=_("Lägg till medicin"))
+        add_btn = Gtk.Button(label=_("Add medicin"))
         add_btn.add_css_class("suggested-action")
         add_btn.set_margin_top(8)
         add_btn.connect("clicked", self._on_add_medication)
@@ -70,7 +70,7 @@ class SettingsView(Gtk.Box):
         content.append(med_frame)
 
         # Save button
-        save_btn = Gtk.Button(label=_("Spara inställningar"))
+        save_btn = Gtk.Button(label=_("Save inställningar"))
         save_btn.add_css_class("suggested-action")
         save_btn.set_size_request(-1, 60)
         save_btn.connect("clicked", self._on_save)
@@ -207,12 +207,12 @@ class AddMedicationDialog(Gtk.Dialog):
 
     def __init__(self, parent):
         super().__init__(
-            title=_("Lägg till medicin"),
+            title=_("Add medicin"),
             transient_for=parent,
             modal=True,
         )
-        self.add_button(_("Avbryt"), "cancel")
-        self.add_button(_("Lägg till"), "add")
+        self.add_button(_("Cancel"), "cancel")
+        self.add_button(_("Add"), "add")
 
         content = self.get_content_area()
         content.set_spacing(12)
