@@ -121,3 +121,15 @@ msgstr "Time innan varning (minuter)"
 msgid "Tider, t.ex. 08:00, 20:00"
 msgstr "Tider, t.ex. 08:00, 20:00"
 
+
+msgid "It is time to take: {name}"
+msgstr "Det är dags att ta: {name}"
+
+msgid "{name} has not been confirmed"
+msgstr "{name} har inte bekräftats"
+
+msgid "Confirm"
+msgstr "Bekräfta"
+
+msgid "Confirmed!"
+msgstr "Bekräftad!"
