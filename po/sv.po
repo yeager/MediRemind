@@ -1,52 +1,158 @@
-# Swedish translation for MediRemind.
+# MediRemind - Medication Reminder
 # Copyright (C) 2026 MediRemind
-# This file is distributed under the same license as the mediremind package.
 #
 msgid ""
 msgstr ""
-"Project-Id-Version: mediremind 0.1.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 00:00+0000\n"
-"PO-Revision-Date: 2026-03-16 00:00+0000\n"
-"Last-Translator: \n"
-"Language-Team: Swedish\n"
-"Language: sv\n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: mediremind 0.1.0
+"
+"POT-Creation-Date: 2026-03-16 00:00+0000
+"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE
+"
+"Last-Translator: 
+"
+"Language-Team: 
+"
+"Language: 
+"
+"MIME-Version: 1.0
+"
+"Content-Type: text/plain; charset=UTF-8
+"
+"Content-Transfer-Encoding: 8bit
+"
 
-#: mediremind/window.py
-msgid "Add Medication"
-msgstr "Lägg till medicin"
+msgid "Dagens mediciner"
+msgstr "Dagens mediciner"
 
-#: mediremind/window.py
-msgid "No Medications"
-msgstr "Inga mediciner"
+msgid "Inga mediciner schemalagda idag"
+msgstr "Inga mediciner schemalagda idag"
 
-#: mediremind/window.py
-msgid "Click + to add your first medication"
-msgstr "Klicka + för att lägga till din första medicin"
+msgid "Bekräfta"
+msgstr "Bekräfta"
 
-#: mediremind/window.py
-msgid "Enter medication name and time (HH:MM)"
-msgstr "Ange medicinnamn och tid (TT:MM)"
+msgid "Bekräftad!"
+msgstr "Bekräftad!"
 
-#: mediremind/window.py
-msgid "Medication name"
-msgstr "Medicinnamn"
+msgid "Dags för medicin!"
+msgstr "Dags för medicin!"
 
-#: mediremind/window.py
-msgid "Cancel"
-msgstr "Avbryt"
+msgid "Det är dags att ta: {name}"
+msgstr "Det är dags att ta: {name}"
 
-#: mediremind/window.py
-msgid "Add"
-msgstr "Lägg till"
+msgid "Missad dos!"
+msgstr "Missad dos!"
 
-#: mediremind/reminder.py
-msgid "Medication Reminder"
+msgid "{name} har inte bekräftats"
+msgstr "{name} har inte bekräftats"
+
+msgid "Medicinpåminnelse"
 msgstr "Medicinpåminnelse"
 
-#: mediremind/reminder.py
-msgid "Time to take %s"
-msgstr "Dags att ta %s"
+msgid "Jag har tagit min medicin"
+msgstr "Jag har tagit min medicin"
+
+msgid "Påminn mig om 5 minuter"
+msgstr "Påminn mig om 5 minuter"
+
+msgid "Historik"
+msgstr "Historik"
+
+msgid "Ingen historik ännu"
+msgstr "Ingen historik ännu"
+
+msgid "Okänd medicin"
+msgstr "Okänd medicin"
+
+msgid "Tagen"
+msgstr "Tagen"
+
+msgid "Missad"
+msgstr "Missad"
+
+msgid "Väntar"
+msgstr "Väntar"
+
+msgid "Snoozad"
+msgstr "Snoozad"
+
+msgid "Inställningar"
+msgstr "Inställningar"
+
+msgid "Anhörigkontakt"
+msgstr "Anhörigkontakt"
+
+msgid "Namn"
+msgstr "Namn"
+
+msgid "E-post"
+msgstr "E-post"
+
+msgid "Telefon"
+msgstr "Telefon"
+
+msgid "E-postinställningar (SMTP)"
+msgstr "E-postinställningar (SMTP)"
+
+msgid "SMTP-server"
+msgstr "SMTP-server"
+
+msgid "Användare"
+msgstr "Användare"
+
+msgid "Lösenord"
+msgstr "Lösenord"
+
+msgid "Notifieringar"
+msgstr "Notifieringar"
+
+msgid "Tid innan varning (minuter)"
+msgstr "Tid innan varning (minuter)"
+
+msgid "Mediciner"
+msgstr "Mediciner"
+
+msgid "Lägg till medicin"
+msgstr "Lägg till medicin"
+
+msgid "Spara inställningar"
+msgstr "Spara inställningar"
+
+msgid "Lägg till"
+msgstr "Lägg till"
+
+msgid "Avbryt"
+msgstr "Avbryt"
+
+msgid "Medicinnamn"
+msgstr "Medicinnamn"
+
+msgid "Tablett"
+msgstr "Tablett"
+
+msgid "Injektion"
+msgstr "Injektion"
+
+msgid "Droppar"
+msgstr "Droppar"
+
+msgid "Inhalator"
+msgstr "Inhalator"
+
+msgid "Salva"
+msgstr "Salva"
+
+msgid "Dosering, t.ex. 2 tabletter"
+msgstr "Dosering, t.ex. 2 tabletter"
+
+msgid "Tider, t.ex. 08:00, 20:00"
+msgstr "Tider, t.ex. 08:00, 20:00"
+
+msgid "Schema"
+msgstr "Schema"
+
+msgid "Hej {contact}! {med_name} (planerad {time}) har inte bekräftats. Vänligen kontrollera att medicinen har tagits."
+msgstr "Hej {contact}! {med_name} (planerad {time}) har inte bekräftats. Vänligen kontrollera att medicinen har tagits."
+
+msgid "MediRemind: Missad dos - {name}"
+msgstr "MediRemind: Missad dos - {name}"

@@ -1,0 +1,10 @@
+mediremind/application.py
+mediremind/window.py
+mediremind/views/schedule_view.py
+mediremind/views/reminder_view.py
+mediremind/views/history_view.py
+mediremind/views/settings_view.py
+mediremind/widgets/confirm_button.py
+mediremind/widgets/med_card.py
+mediremind/services/notification.py
+mediremind/services/alert_sender.py

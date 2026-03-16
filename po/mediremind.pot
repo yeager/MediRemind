@@ -1,53 +1,158 @@
-# MediRemind translation template.
+# MediRemind - Medication Reminder
 # Copyright (C) 2026 MediRemind
-# This file is distributed under the same license as the mediremind package.
 #
-#, fuzzy
 msgid ""
 msgstr ""
-"Project-Id-Version: mediremind 0.1.0\n"
-"Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2026-03-16 00:00+0000\n"
-"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE\n"
-"Last-Translator: \n"
-"Language-Team: \n"
-"Language: \n"
-"MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
-"Content-Transfer-Encoding: 8bit\n"
+"Project-Id-Version: mediremind 0.1.0
+"
+"POT-Creation-Date: 2026-03-16 00:00+0000
+"
+"PO-Revision-Date: YEAR-MO-DA HO:MI+ZONE
+"
+"Last-Translator: 
+"
+"Language-Team: 
+"
+"Language: 
+"
+"MIME-Version: 1.0
+"
+"Content-Type: text/plain; charset=UTF-8
+"
+"Content-Transfer-Encoding: 8bit
+"
 
-#: mediremind/window.py
-msgid "Add Medication"
+msgid "Dagens mediciner"
 msgstr ""
 
-#: mediremind/window.py
-msgid "No Medications"
+msgid "Inga mediciner schemalagda idag"
 msgstr ""
 
-#: mediremind/window.py
-msgid "Click + to add your first medication"
+msgid "Bekräfta"
 msgstr ""
 
-#: mediremind/window.py
-msgid "Enter medication name and time (HH:MM)"
+msgid "Bekräftad!"
 msgstr ""
 
-#: mediremind/window.py
-msgid "Medication name"
+msgid "Dags för medicin!"
 msgstr ""
 
-#: mediremind/window.py
-msgid "Cancel"
+msgid "Det är dags att ta: {name}"
 msgstr ""
 
-#: mediremind/window.py
-msgid "Add"
+msgid "Missad dos!"
 msgstr ""
 
-#: mediremind/reminder.py
-msgid "Medication Reminder"
+msgid "{name} har inte bekräftats"
 msgstr ""
 
-#: mediremind/reminder.py
-msgid "Time to take %s"
+msgid "Medicinpåminnelse"
+msgstr ""
+
+msgid "Jag har tagit min medicin"
+msgstr ""
+
+msgid "Påminn mig om 5 minuter"
+msgstr ""
+
+msgid "Historik"
+msgstr ""
+
+msgid "Ingen historik ännu"
+msgstr ""
+
+msgid "Okänd medicin"
+msgstr ""
+
+msgid "Tagen"
+msgstr ""
+
+msgid "Missad"
+msgstr ""
+
+msgid "Väntar"
+msgstr ""
+
+msgid "Snoozad"
+msgstr ""
+
+msgid "Inställningar"
+msgstr ""
+
+msgid "Anhörigkontakt"
+msgstr ""
+
+msgid "Namn"
+msgstr ""
+
+msgid "E-post"
+msgstr ""
+
+msgid "Telefon"
+msgstr ""
+
+msgid "E-postinställningar (SMTP)"
+msgstr ""
+
+msgid "SMTP-server"
+msgstr ""
+
+msgid "Användare"
+msgstr ""
+
+msgid "Lösenord"
+msgstr ""
+
+msgid "Notifieringar"
+msgstr ""
+
+msgid "Tid innan varning (minuter)"
+msgstr ""
+
+msgid "Mediciner"
+msgstr ""
+
+msgid "Lägg till medicin"
+msgstr ""
+
+msgid "Spara inställningar"
+msgstr ""
+
+msgid "Lägg till"
+msgstr ""
+
+msgid "Avbryt"
+msgstr ""
+
+msgid "Medicinnamn"
+msgstr ""
+
+msgid "Tablett"
+msgstr ""
+
+msgid "Injektion"
+msgstr ""
+
+msgid "Droppar"
+msgstr ""
+
+msgid "Inhalator"
+msgstr ""
+
+msgid "Salva"
+msgstr ""
+
+msgid "Dosering, t.ex. 2 tabletter"
+msgstr ""
+
+msgid "Tider, t.ex. 08:00, 20:00"
+msgstr ""
+
+msgid "Schema"
+msgstr ""
+
+msgid "Hej {contact}! {med_name} (planerad {time}) har inte bekräftats. Vänligen kontrollera att medicinen har tagits."
+msgstr ""
+
+msgid "MediRemind: Missad dos - {name}"
 msgstr ""

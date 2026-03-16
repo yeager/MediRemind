@@ -1,11 +1,14 @@
 [Desktop Entry]
 Name=MediRemind
-Name[sv]=MediRemind - Medicinpåminnare
-Comment=Simple medication reminder
-Comment[sv]=Enkel medicinpåminnare
-Exec=mediremind
-Icon=preferences-desktop-notification
-Terminal=false
+Name[sv]=MediRemind
+GenericName=Medication Reminder
+GenericName[sv]=Medicinpåminnare
+Comment=Medication reminder with pictograms, sound and confirmation
+Comment[sv]=Medicinpåminnare med piktogram, ljud och bekräftelse
+Exec=python3 -m mediremind
+Icon=se.mediremind.app
 Type=Application
-Categories=Utility;GTK;
+Categories=Utility;Accessibility;Health;
+Keywords=medication;reminder;health;medicine;
+Keywords[sv]=medicin;påminnelse;hälsa;läkemedel;
 StartupNotify=true

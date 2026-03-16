@@ -5,6 +5,7 @@ import locale
 from pathlib import Path
 
 __version__ = "0.1.0"
+__app_id__ = "se.mediremind.app"
 
 # i18n setup
 LOCALE_DIR = Path(__file__).parent.parent / "po"
@@ -19,3 +20,6 @@ except locale.Error:
 gettext.bindtextdomain("mediremind", str(LOCALE_DIR))
 gettext.textdomain("mediremind")
 _ = gettext.gettext
+
+import builtins
+builtins._ = _
