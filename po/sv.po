@@ -1,14 +1,25 @@
+# Translation file for MediRemind
 msgid ""
 msgstr ""
-"Project-Id-Version: mediremind 0.1.0\n"
-"Report-Msgid-Bugs-To: \n"
-"PO-Revision-Date: 2026-03-16 12:00+0100\n"
-"Last-Translator: Daniel Nylander <daniel@danielnylander.se>\n"
-"Language-Team: Swedish\n"
+"Content-Type: text/plain; charset=UTF-8\n"
 "Language: sv\n"
 "MIME-Version: 1.0\n"
-"Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
+
+msgid "Schedule"
+msgstr "Schema"
+
+msgid "History"
+msgstr "Historik"
+
+msgid "Settings"
+msgstr "Inställningar"
+
+msgid "Medication Reminder"
+msgstr "Påminnelse om medicinering"
+
+msgid "Time to take %s"
+msgstr "Tid att ta %s"
 
 msgid "No history yet"
 msgstr "Ingen historik ännu"
@@ -16,117 +27,119 @@ msgstr "Ingen historik ännu"
 msgid "Unknown medicine"
 msgstr "Okänd medicin"
 
+msgid "Taken"
+msgstr "Tagen"
+
+msgid "Missed"
+msgstr "Missad"
+
 msgid "Waiting"
 msgstr "Väntar"
 
-msgid "Contact with relatives"
-msgstr "Anhörigkontakt"
+msgid "Snoozed"
+msgstr "Snoozad"
+
+msgid "Emergency contact"
+msgstr "Nödkontakt"
+
+msgid "Name"
+msgstr "Namn"
+
+msgid "E-mail address"
+msgstr "E-postadress"
+
+msgid "Phone number"
+msgstr "Telefonnummer"
 
 msgid "Email settings (SMTP)"
 msgstr "E-postinställningar (SMTP)"
 
-msgid "Users"
-msgstr "Användare"
+msgid "SMTP-server"
+msgstr "SMTP-server"
 
-msgid "password"
+msgid "Username"
+msgstr "Användarnamn"
+
+msgid "Password"
 msgstr "Lösenord"
 
+msgid "Notifications"
+msgstr "Aviseringar"
+
+msgid "Time before warning (minutes)"
+msgstr "Tid innan varning (minuter)"
+
+msgid "Medicines"
+msgstr "Medicin"
+
+msgid "Add medicine"
+msgstr "Lägg till medicin"
+
 msgid "Save settings"
-msgstr "Save inställningar"
+msgstr "Spara inställningar"
+
+msgid "Cancel"
+msgstr "Avbryt"
+
+msgid "Add"
+msgstr "Lägg till"
+
+msgid "Medicine name"
+msgstr "Medicinens namn"
+
+msgid "Tablet"
+msgstr "Tablett"
+
+msgid "Injection"
+msgstr "Injektion"
+
+msgid "Drops"
+msgstr "Droppar"
+
+msgid "Inhaler"
+msgstr "Inhalerare"
+
+msgid "Ointment"
+msgstr "Salva"
+
+msgid "Dosage, e.g. 2 tablets"
+msgstr "Dos, t.ex. 2 tabletter"
+
+msgid "Times, e.g. 08:00, 20:00"
+msgstr "Tider, t.ex. 08:00, 20:00"
+
+msgid "Today's medicines"
+msgstr "Dagens medicin"
+
+msgid "No medications scheduled today"
+msgstr "Ingen medicin schemalagd idag"
 
 msgid "Medicine reminder"
-msgstr "Medicinpåminnelse"
+msgstr "Påminnelse om medicinering"
 
 msgid "Time for medicine!"
 msgstr "Dags för medicin!"
 
+msgid "I have taken my medicine"
+msgstr "Jag har tagit min medicin"
+
 msgid "Remind me in 5 minutes"
 msgstr "Påminn mig om 5 minuter"
-
-msgid "Anhörigkontakt"
-msgstr "Anhörigkontakt"
-
-msgid "Användare"
-msgstr "Användare"
-
-msgid "Avbryt"
-msgstr "Cancel"
-
-msgid "Dosering, t.ex. 2 tabletter"
-msgstr "Dosering, t.ex. 2 tabletter"
-
-msgid "Droppar"
-msgstr "Droppar"
-
-msgid "E-post"
-msgstr "E-post"
-
-msgid "E-postinställningar (SMTP)"
-msgstr "E-postinställningar (SMTP)"
-
-msgid "Historik"
-msgstr "Historik"
-
-msgid "Inhalator"
-msgstr "Inhalator"
-
-msgid "Injektion"
-msgstr "Injektion"
-
-msgid "Inställningar"
-msgstr "Settings"
-
-msgid "Lägg till"
-msgstr "Add"
-
-msgid "Lägg till medicin"
-msgstr "Add medicin"
-
-msgid "Lösenord"
-msgstr "Lösenord"
-
-msgid "Mediciner"
-msgstr "Mediciner"
-
-msgid "Medicinnamn"
-msgstr "Medicinnamn"
-
-msgid "Namn"
-msgstr "Name"
-
-msgid "Notifieringar"
-msgstr "Notifieringar"
-
-msgid "SMTP-server"
-msgstr "SMTP-server"
-
-msgid "Salva"
-msgstr "Salva"
-
-msgid "Schema"
-msgstr "Schema"
-
-msgid "Spara inställningar"
-msgstr "Save inställningar"
-
-msgid "Tablett"
-msgstr "Tablett"
-
-msgid "Telefon"
-msgstr "Telefon"
-
-msgid "Tid innan varning (minuter)"
-msgstr "Time innan varning (minuter)"
-
-msgid "Tider, t.ex. 08:00, 20:00"
-msgstr "Tider, t.ex. 08:00, 20:00"
-
 
 msgid "It is time to take: {name}"
 msgstr "Det är dags att ta: {name}"
 
+msgid "Missed dose!"
+msgstr "Missad dos!"
+
 msgid "{name} has not been confirmed"
 msgstr "{name} har inte bekräftats"
+
+msgid "Hello {contact}! {med_name} (scheduled {time}) has not been confirmed. Vänligen kontrollera att medicinen har tagits."
+msgstr "Hej {contact}! {med_name} (scheduled {time}) har inte bekräftats. Vänligen kontrollera att medicinen har tagits."
+
+msgid "MediRemind: Missed dose - {name}"
+msgstr "MediRemind: Missad dos - {name}"
 
 msgid "Confirm"
 msgstr "Bekräfta"
@@ -134,5 +147,3 @@ msgstr "Bekräfta"
 msgid "Confirmed!"
 msgstr "Bekräftad!"
 
-msgid "Hello {contact}! {with_name} (scheduled {time}) has not been confirmed"
-msgstr "Hej {contact}! {med_name} (planerad {time}) har inte bekräftats"
